@@ -1,10 +1,10 @@
-#Einlesen der Datei
+import matplotlib.pyplot as plt
 
-import csv
+# Laden der Daten
+from load_data import sorted_power_W
 
-def load_data(file_path):
-    with open(file_path, 'r') as file:
-        reader = csv.reader(file)
-        data = list(reader)
-    return data
-
+# Plotte mir eine Liste mit Matplotlib
+plt.plot(sorted_power_W[::-1])
+plt.xlabel('Dauerlinie')
+plt.ylabel('P in W')
+plt.show()

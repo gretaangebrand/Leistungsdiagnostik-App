@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def load_data(file_path):
 
-    # Specify the file path
+    #Specify the file path
     #file_path = 'activity.csv'
 
     # Use numpy.genfromtxt to read the CSV data from the file into a NumPy array
@@ -15,16 +15,16 @@ def load_data(file_path):
     column_arrays = {column: data_array[column] for column in column_names}
 
     # Print each column
-    #for column, array in column_arrays.items():
-    #    print(f"{column}: {array}")
+    # for column, array in column_arrays.items():
+    # print(f"{column}: {array}")
 
     return column_arrays
 
 
 
-if __name__ == "__main__":
-    data = load_data('activity.csv')
-    power_W = data['PowerOriginal']
-    print(power_W)
-    sorted_power_W = bubble_sort(power_W)
-    print(sorted_power_W[::-1])
+#Daten laden und umschreiben (if __name__ == "__main__":)
+data = load_data('activity.csv')
+power_W = data['PowerOriginal']
+print(power_W)
+sorted_power_W = bubble_sort(power_W)
+print(sorted_power_W[::-1])
