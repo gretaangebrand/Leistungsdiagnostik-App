@@ -21,8 +21,7 @@ def load_data(file_path):
     return column_arrays
 
 
-
-#Daten laden und umschreiben (if __name__ == "__main__":)
+# Daten laden und umschreiben
 data = load_data('activity.csv')
 power_W = data['PowerOriginal']
 print(power_W)
