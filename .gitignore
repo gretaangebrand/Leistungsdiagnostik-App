@@ -1,0 +1,4 @@
+# hier kann man Datei ignoerieren mit Namen, die mit einem Punkt beginnen
+
+# venv wollen wir nicht auf git-hub haben
+.venv/
