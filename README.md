@@ -18,7 +18,7 @@
 
 5. Plot als .png speichern
 
-#Nice-to-know:
+# Nice-to-know:
 
 - **.venv\Scripts\activate**: es wird nicht auf die vorinstallierte Version zugegriffen, sondern neu in der virtuellen Ebene erstellt
 
