@@ -18,3 +18,13 @@
 
 5. Plot als .png speichern
 
+#Nice-to-know:
+
+- **.venv\Scripts\activate**: es wird nicht auf die vorinstallierte Version zugegriffen, sondern neu in der virtuellen Ebene erstellt
+
+- **pip numpy/matplotlib**: so werden Bibliotheken in der ordnerspeziefischen virtuellen Ebene installiert (Powershell Ebene als ADMINISTRATOR ÖFFNEN!!!)
+
+- **python .\load_data.py**: öffnet die Daten aus einem anderen File in neuem File (Datenverschiebung)
+
+- **pip freeze**: aktueller Zustand von den Bibliotheken (Versionen) werden angezeigt/eingefrohren -> stellt somit sicher, dass der Code auf allen PCs die selben Startbedingungen hat
+
